@@ -17,31 +17,31 @@ print(emlos2)
 
 print("\nMacska:\n")
 
-macska1 = Macska("Cirmi", 4,"ház", "sziámi")
+macska1 = Macska("Cirmi", 4, "sziámi")
 
 print(macska1)
 macska1.dorombol()
 
 print("\nKuya:\n")
 
-kutya1 = Kutya("Morzsa", 5, "kert", "barna")
+kutya1 = Kutya("Morzsa", 5, "barna")
 print(kutya1)
 kutya1.ugat()
 
 print("\nMadár:\n")
 
-madar1 = Madar("Gálik úr", 2, "ketrec", "kicsi")
+madar1 = Madar("Gálik úr", 2, "kicsi")
 print(madar1)
 madar1.csiripel()
 
 print("\Kétéltű:\n")
 
-keteltu1 = Keteltu("Zsolti", 1, "mocsár", "kicsi")
+keteltu1 = Keteltu("Zsolti", 1, "kicsi")
 print(keteltu1)
 keteltu1.brekeg()
 
 print("\nHüllő\n")
 
-hullo1 = Hullo("Árpád", 6, "szikla", "kicsi")
+hullo1 = Hullo("Árpád", 6, "kicsi")
 print(hullo1)
 hullo1.napozik()

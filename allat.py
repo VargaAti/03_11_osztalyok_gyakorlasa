@@ -7,7 +7,7 @@ class Allat:
         self.meret = meret_
 
     def __str__(self):
-        return f"{self.nev}, faj: {self.faj}, életkor: {self.eletkor}, élőhelye: {self.elohely}, méret: {self.meret}"
+        return f"{self.nev}, faj: {self.faj}, életkor: {self.eletkor}, élőhely: {self.elohely}, méret: {self.meret}"
 
 class Madar(Allat):
     def __init__(self, nev_, eletkor_, elohely_, meret_):
