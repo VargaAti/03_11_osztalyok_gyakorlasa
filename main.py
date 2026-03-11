@@ -1,4 +1,4 @@
-from allat import Allat
+from allat import Allat, Madar, Keteltu, Hullo
 from emlos import Emlos, Macska, Kutya
 
 allat1 = Allat("Bodri", "kutya", 5, "kert", "közepes")
@@ -27,3 +27,21 @@ print("\nKuya:\n")
 kutya1 = Kutya("Morzsa", 5, "kert", "barna")
 print(kutya1)
 kutya1.ugat()
+
+print("\nMadár:\n")
+
+madar1 = Madar("Gálik úr", 2, "ketrec", "kicsi")
+print(madar1)
+madar1.csiripel()
+
+print("\Kétéltű:\n")
+
+keteltu1 = Keteltu("Zsolti", 1, "mocsár", "kicsi")
+print(keteltu1)
+keteltu1.brekeg()
+
+print("\nHüllő\n")
+
+hullo1 = Hullo("Árpád", 6, "szikla", "kicsi")
+print(hullo1)
+hullo1.napozik()

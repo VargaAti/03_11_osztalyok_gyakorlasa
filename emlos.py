@@ -19,4 +19,4 @@ class Kutya(Emlos):
         super().__init__(nev_, "kutya", eletkor_, elohely_, szorzet_szine_)
     
     def ugat(self):
-        print(f"{self.nev} ugat")
+        print(f"{self.nev} ugat.")
